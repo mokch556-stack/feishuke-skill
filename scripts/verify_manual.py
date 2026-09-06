@@ -26,7 +26,7 @@ def check(path, expect_img=2, expect_h2=4):
     t = io.open(path, encoding='utf-8').read()
     if t.startswith('\ufeff'):
         fails.append('BOM')
-    if re.search(r'&(?!amp;|lt;|gt;|quot;|apos;)', t):
+    if re.search(r'&(?!amp;|lt;|gt;|quot;|apos;|#\d+;)', t):
         fails.append('raw &')
     if not re.search(r'<title[^>]*>.+?</title>', t, re.S):
         fails.append('no title')

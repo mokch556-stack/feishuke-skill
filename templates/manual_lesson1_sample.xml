@@ -1,0 +1,186 @@
+<title>🎓 人工智能通识第N讲&#10;xx年xx月xx日&#10;xx26x班</title>
+
+<h2>✅ 课前准备（开课前自查）</h2>
+<checkbox done="false"><b>任务①《我与 AI》</b>：已体验 ≥1 个 AI 工具，结合专业列举 ≥3 个 AI 应用案例并说明价值（含 ≥1 个国产 AI 应用），调研自己平时如何使用 AI，制作 3—5 页 PPT——<b>已提交学习通</b></checkbox>
+<checkbox done="false"><b>任务②《我的智能体初体验》</b>：已按学习手册《Coze 入门指引》课前尝试创建"你好世界"智能体（允许不成功），记录过程与疑问，制作 PPT——<b>已提交学习通</b></checkbox>
+<checkbox done="false">Coze 平台（coze.cn）可登录，豆包/DeepSeek/Kimi、WorkBuddy 可正常使用，学习通可正常接收签到、抢答与测验</checkbox>
+<p>本课 <b>212 汇报机制</b>＝汇报 2′＋互评 1′＋点评 2′：课前任务汇报每小节 1 次（《我与 AI》《我的智能体初体验》）、抽签 1 个小组上台，人人有备而来。</p>
+<p>本课任务成果展示抽签 1 个小组：现场展示 → 学生互评 1′ → 教师点评 2′，教师按评分维度现场给分。</p>
+<p><b>展示满分 10 分、点评满分 8 分</b>，师生当场评分，计入课程竞赛（小组计分表）。</p>
+
+<hr/>
+
+<callout emoji="🎯" background-color="light-blue" border-color="blue">
+<p><b>课题</b>：项目一 专业智能体训练｜课点1：课程导学与AI概述 · 课点2：Coze平台入门</p>
+</callout>
+
+<hr/>
+
+<h2>🗺 课堂流程总览与学习目标（90 分钟）</h2>
+<table>
+<colgroup><col width="110"/><col width="470"/><col width="240"/></colgroup>
+<thead><tr><th background-color="light-blue">时间</th><th background-color="light-blue">学习活动</th><th background-color="light-blue">互动方式</th></tr></thead>
+<tbody>
+<tr><td vertical-align="top"><p>0–2′</p></td><td vertical-align="top"><p>组织教学：问好·签到·检查两项课前任务提交</p></td><td vertical-align="top"><p>🏫 师生互动</p></td></tr>
+<tr><td vertical-align="top"><p>2–5′</p></td><td vertical-align="top"><p>课程导入：人脸识别、语音助手、AI 绘画等生活化 AI 应用场景提问</p></td><td vertical-align="top"><p>💬 提问导入</p></td></tr>
+<tr><td vertical-align="top"><p>5–7′</p></td><td vertical-align="top"><p>明确目标：态度（A1）· 知识（K1—K4）· 技能（S1/S2）</p></td><td vertical-align="top"><p>🎯 自主阅读确认</p></td></tr>
+<tr><td vertical-align="top"><p>7–14′</p></td><td vertical-align="top"><p>前测·212 汇报：《我与 AI》PPT（抽签 1 个小组）</p></td><td vertical-align="top"><p>📣 212 汇报（1 组·7′）</p></td></tr>
+<tr><td vertical-align="top"><p>14–27′</p></td><td vertical-align="top"><p>课程介绍：为什么学 · 学什么 · 怎么学 · 怎么考</p></td><td vertical-align="top"><p>🗣 讲授＋问答</p></td></tr>
+<tr><td vertical-align="top"><p>27–45′</p></td><td vertical-align="top"><p>知识总结：思政微讨论 · AI 定义与应用全景 · 强 AI 与弱 AI</p></td><td vertical-align="top"><p>🗣 思政微讨论＋🧠 师生归纳</p></td></tr>
+<tr><td vertical-align="top"><p>45–52′</p></td><td vertical-align="top"><p>前测·212 汇报：《我的智能体初体验》PPT（抽签 1 个小组）</p></td><td vertical-align="top"><p>📣 212 汇报（1 组·7′）</p></td></tr>
+<tr><td vertical-align="top"><p>52–72′</p></td><td vertical-align="top"><p>任务一：WorkBuddy 热身 → 演示 → 创建并发布"你好世界"智能体 → 展示</p></td><td vertical-align="top"><p>💻 演示 4′＋实操 6′＋📣 展示互评（1 组）</p></td></tr>
+<tr><td vertical-align="top"><p>72–80′</p></td><td vertical-align="top"><p>任务二：智能体对话测试与优化（≥3 轮对话＋优化人设）</p></td><td vertical-align="top"><p>💻 实操 3′＋📣 展示互评（1 组）</p></td></tr>
+<tr><td vertical-align="top"><p>80–85′</p></td><td vertical-align="top"><p>后测：分析题（国产大模型登顶全球调用榜）＋实践引申任务</p></td><td vertical-align="top"><p>✍️ 学习通作答</p></td></tr>
+<tr><td vertical-align="top"><p>85–90′</p></td><td vertical-align="top"><p>课堂总结与课后作业</p></td><td vertical-align="top"><p>📝 记录</p></td></tr>
+</tbody>
+</table>
+<callout emoji="💡" background-color="light-yellow" border-color="yellow">
+<p><b>学习目标</b>（即上表各环节的达成结果）：</p>
+<p>① 阐述人工智能基本概念与应用全景，区分强 AI 与弱 AI 的能力边界，认同国产 AI 自主创新的价值与战略意义（A1/K1/K2）。</p>
+<p>② 了解课程"为什么学、学什么、怎么学、怎么考"（第一次课导学）。</p>
+<p>③ 了解 Coze 平台基本操作流程，阐述人设—知识库—插件三大模块功能（K3/K4）。</p>
+<p>④ 完成一次 AI 工具（智能体/生成式 AI）体验，创建、发布并测试"你好世界"智能体（S1/S2）。</p>
+</callout>
+
+<hr/>
+
+<h2>课点1 课程导学与AI概述</h2>
+
+<h3>① 212 汇报（《我与 AI》）</h3>
+<callout emoji="🎯" background-color="light-blue" border-color="blue">
+<p><b>汇报内容（2 分钟，讲清 4 点）</b>：</p>
+<p>① 已学习——课前体验了哪些 AI 工具、怎么用的、结合专业整理了哪些 AI 应用案例。</p>
+<p>② 已建设——完成的使用记录与体验成果。</p>
+<p>③ 疑问——对 AI 的认识困惑。</p>
+<p>④ 解决路径——如何产生并解决这个问题。</p>
+<p><b>互评要求（1 分钟）</b>：按点评评分要点给互评对象打分。</p>
+<p><b>教师点评（2 分钟）</b>：收集学生真实 AI 使用经验，抽答结合专业列举的 AI 应用案例（含国产 AI 案例）并追问其价值，纠正"AI 万能论""AI 恐慌论"等认知偏差。</p>
+<p><b>评分标准</b>：展示 10 分 / 点评 8 分，师生当场评分，计入课程竞赛（小组计分表）。</p>
+</callout>
+
+<h3>② 课程介绍</h3>
+<p><b>一、为什么学？</b></p>
+<p>① 国家需求——教育部等五部门《"人工智能+教育"行动计划》（教科信〔2026〕1 号）部署实施"人工智能赋能教育行动"，AI 素养纳入新时代人才培养要求；</p>
+<p>② 个人发展——AI 素养是就业、升学、生活的核心竞争力，会用 AI 的人将拥有明显优势；</p>
+<p>③ 课程定位——通识教育必修课，32 学时（理论 16＋实践 16），2 学分。</p>
+<p><b>二、学什么？</b>本课程设三个递进项目、共 32 个课点：</p>
+<p>项目一 专业智能体训练（课点 1—10）：从创建第一个智能体开始，掌握智能体架构、提示词工程、大语言模型原理、国产大模型对比、AIGC 工具实践；</p>
+<p>项目二 智能体应用训练（课点 11—22）：为智能体配备可交互的 H5 应用界面，完成应用框架搭建、对话窗口嵌入、知识库检索 RAG、界面设计与发布；</p>
+<p>项目三 AI 产品交付训练（课点 23—32）：学习工作流（条件分支、批处理、循环、代码节点）与 AI 伦理专题，整合产出为完整产品方案，完成课堂产品展示答辩与期末智能体作品考核。</p>
+<p><b>三、怎么学？</b>核心实践平台：Coze 智能体开放平台（国产平台）；辅助工具：豆包、DeepSeek、Kimi；办公智能体平台 WorkBuddy 用于办公场景任务体验；学习通用于资源发布、作业提交与平时测验。采用项目式教学、任务驱动，坚持"先动手、后理论"，2 节连上，每 45 分钟至少一次抽签汇报。</p>
+<p><b>四、怎么考？</b>总成绩＝平时成绩 50％＋期末成绩 50％。</p>
+<p>平时成绩 100 分＝课堂表现 20＋过程性产出 30＋课程竞赛 30＋线上测验 20；期末成绩 100 分＝项目作业——智能体作品 70 分（可运行性 20＋功能实现与智能体设计质量 40＋创新性与完整度 10）＋使用说明书 30 分（完整性 10＋规范性 10＋可操作性 10），按 50％ 计入总评。</p>
+<p>持"智能体架构师"等人工智能领域权威机构认定证书，可凭有效证书原件申请免交期末智能体作品，期末考核成绩直接认定 100 分。</p>
+<p>课堂呈现只讲考核框架与关键红线；贡献度计算、加分项等细则详见学习手册/学习通。</p>
+
+<h3>③ 知识总结：什么是人工智能</h3>
+<callout emoji="💡" background-color="light-yellow" border-color="yellow">
+<p>🗣 <b>学习任务</b>：阅读下方新闻截图与要点，先进行 2 分钟微讨论，再抽答 1—2 名学生分享：</p>
+<p>① 全球调用榜前五名全部为国产大模型，说明了什么？</p>
+<p>② 你身边的 AI 应用哪些是国产的？</p>
+</callout>
+<img src="Sk6wbrS3RoqsquxqIC7cga4tnTf" width="560" caption="图1 新华网报道《国产大模型改写全球AI调用版图》（2026-08-10）"/>
+<p><b>新闻要点</b>：全球模型聚合平台 OpenRouter 最新周度 Token 调用榜前五名全部为国产大模型——DeepSeek V4 Flash 位居榜首，小米 MiMo V2.5、腾讯 Hy3、DeepSeek V4 Pro、智谱 GLM5.2 次之；国产大模型从"跟跑"迈入"领跑"。</p>
+<p>报道链接：<a href="https://www.news.cn/tech/20260810/7644c2a73a4d4d729812c8e8ec18255f/c.html">www.news.cn（新华网 2026-08-10）</a></p>
+<p><b>一、人工智能的定义（K1）</b>：人工智能是研究、开发用于模拟、延伸和扩展人的智能的理论、方法、技术及应用系统的一门学科——通俗地说，就是让机器能够像人一样思考、学习、决策。</p>
+<p><b>应用全景</b>：人脸识别、语音助手、推荐系统、自动驾驶、AI 绘画、智能客服、AI 写作等，覆盖交通、医疗、教育、金融、娱乐各行各业。</p>
+<p><b>二、强 AI 与弱 AI（K2）</b>：</p>
+<table>
+<colgroup><col width="170"/><col/><col width="230"/></colgroup>
+<thead><tr><th background-color="light-gray">类型</th><th background-color="light-gray">定义</th><th background-color="light-gray">代表 / 现状</th></tr></thead>
+<tbody>
+<tr><td vertical-align="top"><p>弱 AI（专用人工智能）</p></td><td vertical-align="top"><p>只能在特定任务上超越人类</p></td><td vertical-align="top"><p>人脸识别、语音助手、推荐系统——目前所有 AI 都属于弱 AI</p></td></tr>
+<tr><td vertical-align="top"><p>强 AI（通用人工智能 AGI）</p></td><td vertical-align="top"><p>能像人一样完成任何智力任务的智能体</p></td><td vertical-align="top"><p>尚未实现</p></td></tr>
+</tbody>
+</table>
+<p><b>区分意义</b>：有助于理性认识 AI 的能力边界，避免"AI 万能论"或"AI 恐慌论"。</p>
+
+<hr/>
+
+<h2>课点2 Coze平台入门</h2>
+
+<h3>④ 212 汇报（《我的智能体初体验》）</h3>
+<callout emoji="🎯" background-color="light-blue" border-color="blue">
+<p><b>汇报内容（2 分钟，讲清 4 点）</b>：</p>
+<p>① 已学习——看了哪些指引、了解了哪些功能。</p>
+<p>② 已建设——是否创建成功、做到哪一步。</p>
+<p>③ 疑问——卡在哪、为什么失败。</p>
+<p>④ 解决路径——尝试路径。</p>
+<p><b>互评要求（1 分钟）</b>：按点评评分要点打分。</p>
+<p><b>教师点评（2 分钟）</b>：从学生的尝试与疑问切入，明确本课任务目标——把"尝试"升级为"规范创建"，引出 Coze 平台三大模块与标准操作流程，先动手、后理论。</p>
+<p><b>评分标准</b>：展示 10 分 / 点评 8 分，师生当场评分，计入课程竞赛（小组计分表）。</p>
+</callout>
+
+<h3>⑤ 任务一：创建"你好世界"智能体</h3>
+<callout emoji="💡" background-color="light-yellow" border-color="yellow">
+<p>🗣 <b>学习任务</b>：阅读下方新闻截图与要点，先进行 1 分钟微讨论，再抽答 1 名学生分享：</p>
+<p>① 本课要在什么平台上创建第一个智能体？</p>
+<p>② 国产 AI 智能体平台能做到什么？</p>
+</callout>
+<img src="BoR3bLNRaotzPTxDIA4c80QHnWh" width="560" caption="图2 新浪科技报道《字节跳动AI智能体平台扣子Coze 3.0版本上线》（2026-06-01）"/>
+<p><b>新闻要点</b>：Coze（扣子）是字节跳动自主研发的国产 AI 智能体平台，2026 年 6 月上线 3.0 版本，支持多人多 Agent 协作、行业技能包——国产平台已具备世界级能力与潜力，值得信赖和选用。</p>
+<p>报道链接：<a href="https://finance.sina.com.cn/tech/digi/2026-06-01/doc-inhzwyqr2443757.shtml">finance.sina.com.cn（新浪科技 2026-06-01）</a></p>
+<p><b>热身实操（限时 3 分钟）</b>：登录 WorkBuddy 办公智能体平台，体验 AI 辅助信息检索，了解什么是智能体，并生成 Coze 编程功能简介，提交截图记录，教师巡回指导。</p>
+<p><b>教师演示（4 分钟）</b>：</p>
+<p>① 访问 Coze 平台（coze.cn），注册/登录账号；</p>
+<p>② 创建智能体：填写名称"你好世界"与功能介绍；</p>
+<p>③ 人设设定：编写角色提示词，例如"你是一个热情友好的 AI 助手，用简洁亲切的语言回答用户问题"；</p>
+<p>④ 认识三大模块界面：人设、知识库、插件；</p>
+<p>⑤ 发布智能体并获取可访问链接。</p>
+<callout emoji="🎯" background-color="light-blue" border-color="blue">
+<p><b>小组任务（限时 6 分钟）</b>：</p>
+<p>① 基于课前任务②的尝试，按演示步骤规范创建"你好世界"智能体并发布；</p>
+<p>② 人设可结合自身专业设定；</p>
+<p>③ 提交创建成功界面截图与可访问链接。</p>
+<p><b>提交前自检</b>：</p>
+<p>□ 人设提示词是否清晰？</p>
+<p>□ 三大模块界面是否认识？</p>
+<p>□ 是否已发布、链接可访问？</p>
+</callout>
+<callout emoji="💯" background-color="light-green" border-color="green">
+<p><b>212 成果展示（任务一完成即展示）</b>：抽签 1 个小组代表现场展示智能体（2′）——演示人设与对话，简要分享 WorkBuddy 体验。</p>
+<p>学生互评（1′）→ 教师点评（2′），按评分维度现场给分。</p>
+<p>评分维度：<b>人设是否清晰 · 创建是否规范 · 是否已发布可访问</b>。</p>
+<p>展示 10 分 / 点评 8 分，师生当场评分，计入课程竞赛（小组计分表）。</p>
+</callout>
+
+<h3>⑥ 任务二：智能体对话测试与优化</h3>
+<callout emoji="🎯" background-color="light-blue" border-color="blue">
+<p><b>小组任务（限时 3 分钟）</b>：</p>
+<p>① 与自己创建的智能体完成 ≥3 轮对话测试（专业相关、生活相关话题），记录回复效果；</p>
+<p>② 针对"人设是否清晰、回复是否准确"优化人设提示词，如补充角色背景、限定回答风格；</p>
+<p>③ 结合本专业提问测试——电子商务可试"智能购物助手、运营数字员工、商品上架自动化助手"，跨境电子商务可试"国际市场选品分析、多语言营销内容生成、跨境物流路径优化"，集成电路可试"RTL 代码生成与优化、功能验证与错误定位、制造良率预测"等方向。</p>
+</callout>
+<callout emoji="💯" background-color="light-green" border-color="green">
+<p><b>212 成果展示（任务二完成即展示）</b>：抽签 1 个小组代表现场演示对话测试与优化效果（1′）→ 学生互评（1′）→ 教师点评（2′）。</p>
+<p>按步骤⑧评分维度现场给分——每完成一个任务即展示，及时巩固反馈。</p>
+</callout>
+
+<h3>⑦ 后测</h3>
+<callout emoji="💡" background-color="light-orange" border-color="orange">
+<p>📱 <b>题1（分析题，学习通作答）</b>：据新华网 2026 年 8 月 10 日报道，全球模型聚合平台 OpenRouter 周度 Token 调用榜前五名全部为国产大模型。结合本课所学，分析：国产大模型为何能登顶全球调用榜？这一现象对我国 AI 产业发展意味着什么？</p>
+<p>📝 <b>题2（实践引申任务，课后完成）</b>：在 Coze 平台完成一次智能体专业化改造——</p>
+<p>① 向智能体连续提问 3 个本专业问题，逐条记录回答质量；</p>
+<p>② 针对至少 1 处回答不足，修改人设或提示词后再次提问，对比改进效果；</p>
+<p>③ 将改造前后对话截图和 50 字以上改进说明提交至学习通，下节课抽签演示分享。</p>
+</callout>
+<p><b>评分参考</b>：</p>
+<p>题1——① 技术突破，DeepSeek V4 等模型性能对标国际前沿；② 极致性价比，推理成本远低于同类；③ 开源生态，全球开发者共建共享；④ 国产 AI 从"跟跑"迈入"领跑"，增强科技自信，激励青年投身科技创新。</p>
+<p>题2——① 完成 3 个本专业问题提问并逐条记录回答质量；② 针对回答不足修改后重测，改进效果可对比；③ 截图与改进说明提交完整，能演示分享。</p>
+
+<h3>⑧ 课堂总结与课后作业</h3>
+<callout emoji="🎯" background-color="light-blue" border-color="blue">
+<p><b>核心观点</b>：AI 不会取代你，但会用 AI 的人将取代不用 AI 的人。</p>
+</callout>
+<p><b>本课小结</b>：认识了人工智能的定义、应用全景与强 AI/弱 AI 的能力边界，了解了课程"为什么学、学什么、怎么学、怎么考"；完成了两项课前任务汇报，规范创建并发布了自己的第一个智能体"你好世界"，并完成对话测试与优化。</p>
+<p><b>课后作业</b>：</p>
+<checkbox done="false"><b>巩固 1</b>：完成学习通在线测验（AI 基本概念）——提交学习通</checkbox>
+<checkbox done="false"><b>巩固 2</b>：完善"你好世界"智能体——优化人设提示词，完成 ≥3 轮对话测试并记录效果——写入学习手册</checkbox>
+<checkbox done="false"><b>巩固 3</b>：结合课堂思政内容，查阅近 2 年国产 AI 大模型新闻报道 1 篇，写 100 字科技自信主题短评——提交至学习通</checkbox>
+<checkbox done="false"><b>巩固 4</b>：使用 WorkBuddy 办公智能体平台完成 ≥1 项办公场景任务（如文档生成、表格处理等），标注工具名称——提交至学习通</checkbox>
+<checkbox done="false"><b>预习 1</b>：预习课点3「智能体架构解析」——登录 Coze 平台，为"你好世界"智能体添加知识库：上传 2 份以上本专业参考资料（如课程 PPT、行业报告），对比上传前后智能体对同一专业问题的回答，记录变化与体会</checkbox>
+<checkbox done="false"><b>预习 2</b>：准备下一次 212 汇报 PPT——按课点3 学习内容与建设成果制作，汇报时讲清已学习内容、已建设内容、疑问与解决思路</checkbox>
+<p><b>参考资料</b>：</p>
+<p>① 林子雨《人工智能通识》，人民邮电出版社，2025。</p>
+<p>② 易海胜《人工智能应用基础》，航空工业出版社。</p>
+<p>③ Coze 平台官方文档：<a href="https://www.coze.cn">www.coze.cn</a></p>
