@@ -1,0 +1,6 @@
+{
+  "name": "feishuke-skill",
+  "required_files": [
+    "SKILL.md"
+  ]
+}
