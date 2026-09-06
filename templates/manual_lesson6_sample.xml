@@ -1,0 +1,209 @@
+<title>🎓 人工智能通识 xx年xx月xx日</title>
+
+<h2>✅ 课前准备（开课前自查）</h2>
+<checkbox done="false"><b>课前任务① Coze「应用」开发入口观察</b>：在 Coze 平台查看「应用」开发入口，对比「智能体」与「应用」的区别——已提交</checkbox>
+<checkbox done="false"><b>课前任务② 应用转化设想</b>：「我的智能体想做成什么应用」的应用转化设想已梳理——已提交</checkbox>
+<checkbox done="false">Coze 平台可正常登录（含智能体/应用开发/API 管理入口），学习通可正常接收抢答与测验</checkbox>
+<p>本课课前展示＝2 名代表各 2′＋师生点评 3′（共 7′）——课点11、课点12 各 1 轮。</p>
+<p>任务成果展示（任务一）8′、抽签 2 个小组：第 1 组展示 2′＋互评 1′ → 第 2 组展示 2′＋互评 1′ → 两组完毕教师总评 2′。</p>
+<p><b>展示满分 10 分、点评满分 8 分</b>，师生当场评分；课前体验展示计入平时成绩。</p>
+
+<hr/>
+
+<callout emoji="🎯" background-color="light-blue" border-color="blue">
+<p><b>课题</b>：项目二 智能体应用训练｜课点11：智能体应用转化概述 · 课点12：Coze 应用框架与界面设计</p>
+</callout>
+
+<hr/>
+
+<h2>🗺 课堂流程总览与学习目标（90 分钟）</h2>
+<table>
+<colgroup><col width="110"/><col width="470"/><col width="240"/></colgroup>
+<thead><tr><th background-color="light-blue">时间</th><th background-color="light-blue">学习活动</th><th background-color="light-blue">互动方式</th></tr></thead>
+<tbody>
+<tr><td vertical-align="top"><p>0–2′</p></td><td vertical-align="top"><p>组织教学：问好·签到·检查课前任务提交</p></td><td vertical-align="top"><p>🏫 师生互动</p></td></tr>
+<tr><td vertical-align="top"><p>2–4′</p></td><td vertical-align="top"><p>课程导入：承接智能体全流程发布，追问「智能体如何变成可点可看的应用」</p></td><td vertical-align="top"><p>💬 提问导入</p></td></tr>
+<tr><td vertical-align="top"><p>4–6′</p></td><td vertical-align="top"><p>明确目标：KSA 三维目标自主阅读确认</p></td><td vertical-align="top"><p>🎯 自主阅读确认</p></td></tr>
+<tr><td vertical-align="top"><p>6–13′</p></td><td vertical-align="top"><p>课前体验展示①：观察 Coze「应用」开发入口与应用/智能体区别</p></td><td vertical-align="top"><p>📣 课前体验展示（2 人·7′）</p></td></tr>
+<tr><td vertical-align="top"><p>13–27′</p></td><td vertical-align="top"><p>知识总结：智能体应用转化概述（新闻引入·API 对接·状态管理·数据流）＋即时测验（2 题）</p></td><td vertical-align="top"><p>🗣 新闻讨论＋🧠 师生归纳＋📱 学习通限时作答</p></td></tr>
+<tr><td vertical-align="top"><p>27–45′</p></td><td vertical-align="top"><p>任务一：智能体 API 调用配置（配置界面与返回结果截图）</p></td><td vertical-align="top"><p>👥 演示 4′＋实操 6′＋📣 展示 8′（抽 2 组）</p></td></tr>
+<tr><td vertical-align="top"><p>45–52′</p></td><td vertical-align="top"><p>课前体验展示②：「我的智能体想做成什么应用」设想分享</p></td><td vertical-align="top"><p>📣 课前体验展示（2 人·7′）</p></td></tr>
+<tr><td vertical-align="top"><p>52–66′</p></td><td vertical-align="top"><p>知识总结：Coze 应用框架与界面设计（新闻引入·可视化搭建·核心组件）＋即时测验（2 题）</p></td><td vertical-align="top"><p>🗣 新闻讨论＋🧠 师生归纳＋📱 学习通限时作答</p></td></tr>
+<tr><td vertical-align="top"><p>66–81′</p></td><td vertical-align="top"><p>任务二：应用基础框架搭建与页面结构确定（框架预览截图）</p></td><td vertical-align="top"><p>💻 演示 4′＋👥 实操 7′＋📣 展示 4′（抽 1 人）</p></td></tr>
+<tr><td vertical-align="top"><p>81–86′</p></td><td vertical-align="top"><p>后测：API 对接流程与数据流分析（学习通作答）＋实践任务布置</p></td><td vertical-align="top"><p>✍️ 学习通作答</p></td></tr>
+<tr><td vertical-align="top"><p>86–90′</p></td><td vertical-align="top"><p>课堂总结与课后作业</p></td><td vertical-align="top"><p>📝 记录</p></td></tr>
+</tbody>
+</table>
+<callout emoji="💡" background-color="light-yellow" border-color="yellow">
+<p><b>学习目标</b>（即上表各环节的达成结果）：</p>
+<p>① 阐述智能体 API 对接的基本方法与状态管理，了解智能体与应用交互的数据流（K21/K22）。</p>
+<p>② 完成智能体 API 的调用配置，正确解读返回数据（S11）。</p>
+<p>③ 阐述 Coze 应用开发框架的核心组件，了解前端可视化搭建的基本方法（K24/K23）。</p>
+<p>④ 完成应用基础框架搭建与页面结构确定，在 API 调用与应用开发中恪守数据来源与内容发布的合规底线（S12/A3）。</p>
+</callout>
+
+<hr/>
+
+<h2>课点11 智能体应用转化概述</h2>
+
+<h3>① 课前体验展示（2 人 · 7′）</h3>
+<callout emoji="🎯" background-color="light-blue" border-color="blue">
+<p><b>展示要求（抽签 2 名代表，每人 2′）</b>：现场展示你课前对 Coze 平台「应用」开发入口的观察，说清 3 点：</p>
+<p>① 观察结果——「应用」开发入口在哪里、界面长什么样。</p>
+<p>② 区别理解——「应用」与「智能体」有哪些区别。</p>
+<p>③ 转化设想——由此想把你的智能体做成什么应用。</p>
+<p><b>点评要求（师生点评 3′）</b>：围绕「对应用与智能体区别的理解、观察是否细致、应用转化设想是否清晰」三个维度点评。</p>
+<p>全员已完成课前任务并提交，抽签展示，人人有备而来。</p>
+<p><b>评分</b>：展示计入平时成绩。</p>
+</callout>
+
+<h3>② 新闻引入与讨论</h3>
+<callout emoji="💡" background-color="light-yellow" border-color="yellow">
+<p>🗣 <b>学习任务</b>：阅读下列新闻报道，围绕「智能体 API 接入的合规问题」展开 2 分钟微讨论：</p>
+<p>① 智能体要接入别人的能力（API），怎么保证用的是合规服务？</p>
+<p>② 你调用时该注意什么？</p>
+<p>讨论后抽答 1–2 名同学分享。</p>
+</callout>
+<img src="XgS2bDlnTo8F4Hxibyrc5BR7ngd" width="560" caption="图1 新华网报道《国家网信办：611款生成式人工智能服务完成备案》（2025-11-13）"/>
+<p><b>新闻要点</b>：为促进生成式人工智能服务创新发展和规范应用，网信部门持续开展生成式人工智能服务备案工作；对于通过 API 接口或其他方式直接调用已备案模型能力的生成式人工智能应用或功能，由地方网信办开展登记。</p>
+<p>截至 2025 年 11 月 1 日，我国累计有 611 款生成式人工智能服务完成备案、306 款生成式人工智能应用或功能完成登记。</p>
+<p>报道链接：<a href="http://www.news.cn/tech/20251113/47b808549fdd4bc080d646b5c0e8e611/c.html">www.news.cn（新华网 2025-11-13）</a></p>
+
+<h3>③ 知识归纳：智能体应用转化概述</h3>
+<p><b>概念</b>：API（应用程序接口）是软件之间通信的约定——智能体通过 API 把自己的能力开放给应用调用，或调用外部服务的能力；智能体对外提供服务、调用外部能力都离不开 API。</p>
+<table>
+<colgroup><col width="130"/><col/><col width="170"/></colgroup>
+<thead><tr><th background-color="light-gray">知识模块</th><th background-color="light-gray">核心内容</th><th background-color="light-gray">关键要求</th></tr></thead>
+<tbody>
+<tr><td vertical-align="top"><p>API 对接（K21）</p></td><td vertical-align="top"><p>对接基本方法：获取 API 地址与密钥 → 配置请求参数 → 发起调用 → 解析返回数据</p></td><td vertical-align="top"><p>密钥妥善保管，不得泄露</p></td></tr>
+<tr><td vertical-align="top"><p>状态管理（K21）</p></td><td vertical-align="top"><p>对话类 API 通常需要维护会话状态，保证多轮对话上下文连贯</p></td><td vertical-align="top"><p>用会话 ID 区分不同用户与不同轮次，避免「串台」与上下文丢失</p></td></tr>
+<tr><td vertical-align="top"><p>数据流（K22）</p></td><td vertical-align="top"><p>用户在应用界面输入 → 应用通过 API 把请求发给智能体 → 智能体处理并返回结果 → 应用展示给用户</p></td><td vertical-align="top"><p>数据来源要合规、内容发布守底线</p></td></tr>
+</tbody>
+</table>
+
+<h3>④ 即时测验（2 题）</h3>
+<callout emoji="💡" background-color="light-orange" border-color="orange">
+<p>📱 <b>题1（选择）</b>：智能体要把对话能力开放给网页应用使用，通常依靠（　）</p>
+<p>A. API 接口</p>
+<p>B. USB 数据线</p>
+<p>C. 蓝牙连接</p>
+<p>D. 屏幕共享</p>
+<p>📱 <b>题2（判断）</b>：调用生成式人工智能服务前应确认其已完成备案，并妥善保管 API 密钥。（　）</p>
+</callout>
+
+<h3>⑤ 任务一：智能体 API 调用配置（18′）</h3>
+<p><b>教师演示（4′）</b>：</p>
+<p>① 在 Coze 平台打开自己的智能体，演示查看 API 地址与密钥的方法。</p>
+<p>② 演示用网页工具或代码发起一次 API 调用，配置请求参数并查看返回数据。</p>
+<p>③ 演示如何处理返回结果、识别常见错误（如密钥错误、参数缺失），强调密钥不泄露的合规要求。</p>
+<callout emoji="🎯" background-color="light-blue" border-color="blue">
+<p><b>小组任务（限时 6′，两人一组）</b>：</p>
+<p>① 获取自己智能体的 API 地址与密钥。</p>
+<p>② 完成一次 API 调用配置，调用返回数据正确。</p>
+<p>③ 截图记录配置界面与调用返回结果。</p>
+<p>④ 能说出智能体与应用数据交互流程的 2–3 条要点。</p>
+<p><b>提交前自检</b>：</p>
+<p>□ API 地址与密钥是否已获取并妥善保管？</p>
+<p>□ API 调用是否配置成功、返回数据是否正确？</p>
+<p>□ 是否截图留存配置界面与调用返回结果？</p>
+<p>□ 能否说出智能体与应用数据交互流程的 2–3 条要点？</p>
+</callout>
+<callout emoji="💯" background-color="light-green" border-color="green">
+<p><b>212 成果展示（8′，抽签 2 个小组）</b>：任务完成即现场展示 API 调用配置与返回结果——</p>
+<p>第 1 组代表展示（2′）→ 学生互评（1′）。</p>
+<p>第 2 组代表展示（2′）→ 学生互评（1′）。</p>
+<p>两组展示完毕，教师总评（2′）并现场给分。</p>
+<p>评分维度：<b>API 配置是否正确 · 返回数据是否解读到位 · 密钥保管是否规范 · 是否结合专业场景</b>。</p>
+<p>展示 10 分 / 点评 8 分，师生当场评分。</p>
+</callout>
+
+<hr/>
+
+<h2>课点12 Coze 应用框架与界面设计</h2>
+
+<h3>⑥ 课前体验展示（2 人 · 7′）</h3>
+<callout emoji="🎯" background-color="light-blue" border-color="blue">
+<p><b>展示要求（抽签 2 名代表，每人 2′）</b>：现场分享「我的智能体想做成什么应用」的应用转化设想，说清 3 点：</p>
+<p>① 应用场景——想让智能体在什么场景、为谁服务。</p>
+<p>② 界面形态——应用页面大概长什么样。</p>
+<p>③ 专业结合——这个应用与你所学专业如何结合。</p>
+<p><b>点评要求（师生点评 3′）</b>：围绕「应用场景是否真实、界面形态是否想清楚、与专业结合是否紧密」三个维度点评。</p>
+<p>全员已完成课前任务并提交，抽签展示，人人有备而来。</p>
+<p><b>评分</b>：展示计入平时成绩。</p>
+</callout>
+
+<h3>⑦ 新闻引入与讨论</h3>
+<callout emoji="💡" background-color="light-yellow" border-color="yellow">
+<p>🗣 <b>学习任务</b>：阅读下列新闻报道，围绕「低代码平台的安全合规」展开 2 分钟微讨论：</p>
+<p>① 低代码平台让搭建应用门槛大降，开发门槛低了，安全和合规靠什么保证？</p>
+<p>讨论后抽答 1–2 名同学分享。</p>
+</callout>
+<img src="Nh0JbWnfCo1JUrxUhXBcNpM5nmg" width="560" caption="图2 新华网报道《蚂蚁数科发布智能体开发平台Agentar 助力金融机构高效搭建专业智能体应用》（2025-04-29）"/>
+<p><b>新闻要点</b>：蚂蚁数科发布一站式智能体开发平台 Agentar，为金融机构提供全栈的智能体开发工具，提供零代码、低代码开发以及可视化编排能力，让非技术人员也能以拖拽方式快速搭建智能体应用。</p>
+<p>平台具备金融级的数据与内容安全防御及监测能力，全面保障智能体应用场景的安全合规性。</p>
+<p>报道链接：<a href="https://www.news.cn/tech/20250429/748d2dda5c714068ace7f73e849669ec/c.html">www.news.cn（新华网 2025-04-29）</a></p>
+
+<h3>⑧ 知识归纳：应用开发框架与前端可视化搭建</h3>
+<p><b>前端可视化搭建（K23）</b>：通过拖拽组件、配置属性完成界面，无需手写大量代码；常见操作：选择页面模板 → 拖入文本/按钮/输入框等组件 → 配置数据来源与交互 → 预览调试。</p>
+<table>
+<colgroup><col width="170"/><col/></colgroup>
+<thead><tr><th background-color="light-gray">核心组件</th><th background-color="light-gray">作用与用途</th></tr></thead>
+<tbody>
+<tr><td vertical-align="top"><p>页面</p></td><td vertical-align="top"><p>应用的界面载体，承载标题、输入区、对话区、按钮等</p></td></tr>
+<tr><td vertical-align="top"><p>智能体</p></td><td vertical-align="top"><p>应用的「大脑」，接收用户输入并生成回复（课点1—10 已建成）</p></td></tr>
+<tr><td vertical-align="top"><p>数据连接与变量</p></td><td vertical-align="top"><p>把用户输入传给智能体、把返回结果展示到页面</p></td></tr>
+<tr><td vertical-align="top"><p>导航逻辑</p></td><td vertical-align="top"><p>页面之间的跳转与状态切换，保证用户操作流畅</p></td></tr>
+</tbody>
+</table>
+
+<h3>⑨ 任务二：应用基础框架搭建与页面结构确定（15′）</h3>
+<p><b>教师演示（4′）</b>：</p>
+<p>① 在 Coze 平台新建应用、选择页面模板，演示页面标题与布局设置。</p>
+<p>② 演示把已发布智能体接入应用页面，配置输入区与对话展示区。</p>
+<p>③ 演示预览效果，检查页面结构完整、导航逻辑清晰。</p>
+<callout emoji="🎯" background-color="light-blue" border-color="blue">
+<p><b>小组任务（限时 7′，两人一组）</b>：</p>
+<p>① 完成 Coze 应用基础框架搭建，页面结构完整。</p>
+<p>② 确定标题、输入区、对话区等核心页面元素与导航逻辑。</p>
+<p>③ 截图记录应用框架预览效果。</p>
+<p>④ 能说出 2–3 个核心组件及用途。</p>
+<p><b>提交前自检</b>：</p>
+<p>□ 应用基础框架是否搭建完成、页面结构是否完整？</p>
+<p>□ 标题、输入区、对话区等核心元素与导航逻辑是否确定？</p>
+<p>□ 是否截图留存应用框架预览效果？</p>
+<p>□ 能否说出 2–3 个核心组件及用途？</p>
+</callout>
+<callout emoji="💯" background-color="light-green" border-color="green">
+<p><b>成果展示（4′，抽签 1 名代表）</b>：任务完成即现场展示应用基础框架预览——</p>
+<p>1 名代表展示（1′）→ 师生点评（3′）。</p>
+<p>点评维度：<b>页面结构是否完整 · 核心组件是否用对 · 导航逻辑是否清晰 · 是否结合专业场景</b>。</p>
+</callout>
+
+<h3>⑩ 后测（5′）</h3>
+<callout emoji="💡" background-color="light-orange" border-color="orange">
+<p>📱 <b>题1（分析题，学习通作答）</b>：简述智能体 API 对接的基本流程，并说明智能体与应用交互的数据流是怎样的。</p>
+<p>📝 <b>题2（实践引申任务，课后完成）</b>：课后完善你的应用基础框架——</p>
+<p>① 确认自己的 Coze 应用框架页面结构完整、预览正常。</p>
+<p>② 梳理应用要接入哪个已发布智能体，准备下节课嵌入对话窗口。</p>
+<p>③ 写出应用界面想呈现的标题、配色、LOGO 初步设想，写入学习手册。</p>
+<p><b>评分参考</b>：① 框架搭建完成、结构完整；② 智能体接入方案清晰；③ 界面设计设想具体。</p>
+</callout>
+
+<h3>⑪ 课堂总结与课后作业</h3>
+<callout emoji="🎯" background-color="light-blue" border-color="blue">
+<p><b>核心观点</b>：让智能体走出对话框——API 打通能力，框架搭好舞台，合规守住底线。</p>
+</callout>
+<p><b>本课小结</b>：本课认识了智能体到应用的转化路径，掌握了 API 对接的基本方法与状态管理，完成了智能体 API 调用配置。</p>
+<p>认识了 Coze 应用开发框架的核心组件与前端可视化搭建方法，完成了应用基础框架搭建与页面结构确定；在 API 调用与应用开发中牢记数据来源与内容发布的合规底线。</p>
+<p><b>课后作业</b>：</p>
+<checkbox done="false"><b>巩固 1</b>：完成学习通在线测验（智能体应用转化概述、Coze 应用框架与界面设计）</checkbox>
+<checkbox done="false"><b>巩固 2</b>：完成智能体 API 配置，调用返回数据正确——提交「配置界面截图」与「API 调用成功截图（含返回数据）」至学习通</checkbox>
+<checkbox done="false"><b>巩固 3</b>：简述智能体与应用的数据交互流程（2–3 条）——提交学习通，课堂抽答</checkbox>
+<checkbox done="false"><b>巩固 4</b>：完成 Coze 应用框架搭建，页面结构完整——提交应用框架预览截图至学习通</checkbox>
+<checkbox done="false"><b>巩固 5</b>：阐述 Coze 应用开发框架的核心组件及用途（2–3 个组件）、描述页面结构与导航逻辑（2–3 条）——提交学习通，课堂抽答</checkbox>
+<checkbox done="false"><b>预习 1</b>：预习课点13「对话窗口嵌入与多轮对话」、课点14「知识库检索与 RAG 实现」：了解应用如何嵌入对话窗口、知识库检索如何提升回答质量</checkbox>
+<checkbox done="false"><b>预习 2</b>：在 Coze 平台继续完善应用基础框架，为下节课嵌入对话窗口做准备；整理自己智能体的知识库内容，思考应用接入知识库后能回答哪些专业问题，准备课堂分享</checkbox>
+<p><b>参考资料</b>：</p>
+<p>① 林子雨《人工智能通识》，人民邮电出版社，2025。</p>
+<p>② 易海胜《人工智能应用基础》，航空工业出版社。</p>
+<p>③ Coze 平台官方文档：<a href="https://www.coze.cn">www.coze.cn</a></p>

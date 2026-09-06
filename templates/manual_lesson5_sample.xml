@@ -1,0 +1,226 @@
+<title>🎓 人工智能通识 xx年xx月xx日</title>
+
+<h2>✅ 课前准备（开课前自查）</h2>
+<checkbox done="false"><b>任务① Coze 知识库上传体验</b>：已在 Coze 平台为自己的智能体上传 1 条本专业内容到知识库，并记录问答效果</checkbox>
+<checkbox done="false"><b>任务②《我的智能体从人设到发布全流程进展》PPT</b>：已梳理自己智能体从人设、知识库、插件到发布的全流程进展——<b>已提交学习通</b></checkbox>
+<checkbox done="false">Coze 平台可正常登录，学习通可正常接收即时测验</checkbox>
+<p>本课 <b>212 汇报机制</b>＝汇报 2′＋互评 1′＋点评 2′：课前任务汇报每次 <b>5′</b>、抽签 1 个小组。</p>
+<p>任务成果展示每次 <b>8′</b>、抽签 2 个小组：第 1 组展示 2′＋互评 1′ → 第 2 组展示 2′＋互评 1′ → 两组完毕教师总评 2′。</p>
+<p><b>展示满分 10 分、点评满分 8 分</b>，师生当场评分，计入课程竞赛（小组计分表）。</p>
+
+<hr/>
+
+<callout emoji="🎯" background-color="light-blue" border-color="blue">
+<p><b>课题</b>：项目一 专业智能体训练｜课点9：知识库配置与插件接入 · 课点10：智能体全流程发布</p>
+</callout>
+
+<hr/>
+
+<h2>🗺 课堂流程总览与学习目标（90 分钟）</h2>
+<table>
+<colgroup><col width="110"/><col width="470"/><col width="240"/></colgroup>
+<thead><tr><th background-color="light-blue">时间</th><th background-color="light-blue">学习活动</th><th background-color="light-blue">互动方式</th></tr></thead>
+<tbody>
+<tr><td vertical-align="top"><p>0–2′</p></td><td vertical-align="top"><p>组织教学：问好 · 签到 · 检查课前任务</p></td><td vertical-align="top"><p>🏫 师生互动</p></td></tr>
+<tr><td vertical-align="top"><p>2–4′</p></td><td vertical-align="top"><p>课程导入：智能体为何会「一本正经地胡说」</p></td><td vertical-align="top"><p>💬 提问导入</p></td></tr>
+<tr><td vertical-align="top"><p>4–6′</p></td><td vertical-align="top"><p>明确目标：KSA 三维目标</p></td><td vertical-align="top"><p>🎯 自主阅读确认</p></td></tr>
+<tr><td vertical-align="top"><p>6–13′</p></td><td vertical-align="top"><p>课前体验展示：Coze 知识库上传体验（抽 2 人）</p></td><td vertical-align="top"><p>📣 课前体验展示（2 人 · 7′）</p></td></tr>
+<tr><td vertical-align="top"><p>13–27′</p></td><td vertical-align="top"><p>知识归纳：知识库创建维护与插件接入（思政引入＋即时测验）</p></td><td vertical-align="top"><p>🗣 新闻微讨论＋🧠 师生归纳＋📱 限时作答</p></td></tr>
+<tr><td vertical-align="top"><p>27–45′</p></td><td vertical-align="top"><p>任务一：知识库上传与插件接入配置</p></td><td vertical-align="top"><p>👥 演示 4′＋实操 6′＋📣 展示 8′（抽 2 组）</p></td></tr>
+<tr><td vertical-align="top"><p>45–50′</p></td><td vertical-align="top"><p>212 汇报：我的智能体从人设到发布全流程进展</p></td><td vertical-align="top"><p>📣 212 汇报（1 组 · 5′）</p></td></tr>
+<tr><td vertical-align="top"><p>50–64′</p></td><td vertical-align="top"><p>知识归纳：人设—知识库—插件—发布全链路与发布后维护（思政引入）</p></td><td vertical-align="top"><p>🗣 新闻微讨论＋🧠 师生归纳</p></td></tr>
+<tr><td vertical-align="top"><p>64–84′</p></td><td vertical-align="top"><p>任务二：智能体全流程创建与发布</p></td><td vertical-align="top"><p>💻 演示 4′＋实操 11′＋📣 展示 5′（抽 1 组）</p></td></tr>
+<tr><td vertical-align="top"><p>84–88′</p></td><td vertical-align="top"><p>后测：全链路逻辑＋发布后对话测试与迭代优化</p></td><td vertical-align="top"><p>✍️ 学习通作答</p></td></tr>
+<tr><td vertical-align="top"><p>88–90′</p></td><td vertical-align="top"><p>课堂总结与课后作业</p></td><td vertical-align="top"><p>📝 记录</p></td></tr>
+</tbody>
+</table>
+<callout emoji="💡" background-color="light-yellow" border-color="yellow">
+<p><b>学习目标</b>（即上表各环节的达成结果）：</p>
+<p>① 阐述知识库创建与维护的核心方法，了解插件接入的基本方法（K17/K18）。</p>
+<p>② 阐述人设－知识库－插件－发布全链路逻辑，了解智能体发布后的使用与维护（K19/K20）。</p>
+<p>③ 完成知识库上传与 ≥1 个插件接入配置（S9）。</p>
+<p>④ 独立交付面向专业方向的可运行智能体，坚持对 AI 产品反复迭代打磨（S10/A2）。</p>
+</callout>
+
+<hr/>
+
+<h2>课点9 知识库配置与插件接入</h2>
+
+<h3>① 课前体验展示（2 人 · 7′）</h3>
+<callout emoji="🎯" background-color="light-blue" border-color="blue">
+<p><b>展示安排</b>：抽签 2 名学生代表，现场展示课前在 Coze 平台上传 1 条本专业内容到知识库的体验——每人展示 2′，随后师生点评 3′。</p>
+<p><b>展示与点评维度</b>：内容是否专业 · 上传是否成功 · 问答效果。</p>
+<p>全员已提交课前任务，人人有备而来，抽签展示。</p>
+<p>本环节展示计入平时成绩。</p>
+</callout>
+
+<h3>② 新闻引入与讨论</h3>
+<callout emoji="💡" background-color="light-yellow" border-color="yellow">
+<p>🗣 <b>学习任务</b>：阅读下列新闻材料，先进行 2 分钟微讨论，再抽答 1–2 名学生分享观点——</p>
+<p>① 权威智能体的知识库为什么要可溯源、低幻觉？</p>
+<p>② 你的智能体知识库该怎么建？</p>
+</callout>
+<img src="PWclbqzQPofuQRxDoTmcqcDlnmp" width="560" caption="图1 新华网报道《主动拥抱人工智能时代的积极尝试——写在权威AI时政资讯智能体“新华语典”上线之际》（2026-06-29）"/>
+<p><b>案例要点</b>：新华社打造的权威 AI 时政资讯智能体「新华语典」正式上线，依托新华社全域权威语料构建知识库，通过 RAG 技术确保内容可溯源、低幻觉，为用户提供权威可信、安全可控、精准可靠、出处可溯的全链路智能服务。</p>
+<p>发布后，新华社希望与广大用户一起共同训练、优化迭代这一智能体——权威智能体同样靠持续打磨保持可信。</p>
+<p>报道链接：<a href="https://www.news.cn/politics/20260629/aa52f8dfe0e84a1596b4c9dde82665f0/c.html">www.news.cn（新华网 2026-06-29）</a></p>
+
+<h3>③ 知识归纳：知识库配置与插件接入</h3>
+<p><b>核心认知</b>：让智能体「只懂你的专业、不胡说」——知识库给它装上「专业大脑」，插件给它装上「工具手」。</p>
+<p><b>一、知识库创建与维护的核心方法（K18）</b>：</p>
+<table>
+<colgroup><col width="110"/><col/></colgroup>
+<thead><tr><th background-color="light-gray">环节</th><th background-color="light-gray">做法与作用</th></tr></thead>
+<tbody>
+<tr><td vertical-align="top"><p>创建知识库</p></td><td vertical-align="top"><p>在 Coze 平台新建知识库，命名并设定用途</p></td></tr>
+<tr><td vertical-align="top"><p>上传内容</p></td><td vertical-align="top"><p>上传 ≥5 条专业内容（文本/文件），按章节或主题组织</p></td></tr>
+<tr><td vertical-align="top"><p>维护更新</p></td><td vertical-align="top"><p>定期增补与修订内容，删除过时信息，保证知识库新鲜准确</p></td></tr>
+<tr><td vertical-align="top"><p>检索调用</p></td><td vertical-align="top"><p>智能体回答时优先检索知识库内容，降低幻觉</p></td></tr>
+</tbody>
+</table>
+<p><b>二、插件接入的基本方法（K17）</b>：</p>
+<table>
+<colgroup><col width="110"/><col/></colgroup>
+<thead><tr><th background-color="light-gray">环节</th><th background-color="light-gray">做法与作用</th></tr></thead>
+<tbody>
+<tr><td vertical-align="top"><p>插件的作用</p></td><td vertical-align="top"><p>为智能体接入外部能力，如搜索、天气、数据库查询</p></td></tr>
+<tr><td vertical-align="top"><p>接入方法</p></td><td vertical-align="top"><p>在 Coze 插件市场选择插件，授权并配置参数，测试调用</p></td></tr>
+<tr><td vertical-align="top"><p>功能验证</p></td><td vertical-align="top"><p>调用插件确认返回数据正确，记录接入与验证过程</p></td></tr>
+</tbody>
+</table>
+
+<h3>④ 即时测验</h3>
+<callout emoji="💡" background-color="light-orange" border-color="orange">
+<p>📱 <b>题1（选择）</b>：让智能体回答时优先检索自己上传的专业内容、降低幻觉，主要依靠（　）</p>
+<p>A. 插件</p>
+<p>B. 知识库</p>
+<p>C. 提示词</p>
+<p>D. 人设</p>
+<p>📱 <b>题2（判断）</b>：知识库上传后无需维护，一次建好即可永久使用。（　）</p>
+</callout>
+
+<h3>⑤ 任务一：知识库上传与插件接入配置</h3>
+<p><b>任务结构</b>：观看演示 4′＋小组实操 6′＋212 成果展示 8′。</p>
+<p><b>（演示 4′）观看示范并记录要点</b>：</p>
+<p>① 新建知识库，命名并上传 ≥5 条专业内容，观察内容组织方法。</p>
+<p>② 在插件市场选择 1 个插件（如搜索插件），观察授权、配置参数与测试调用。</p>
+<p>③ 功能验证：让智能体调用知识库与插件回答问题，并完成 1 次迭代调整（如发现检索不准、调整内容分段）。</p>
+<callout emoji="🎯" background-color="light-blue" border-color="blue">
+<p><b>小组任务（限时 6′，两人一组）</b>：登录 Coze 平台完成——</p>
+<p>① 创建知识库并上传 ≥5 条专业内容。</p>
+<p>② 接入 ≥1 个 API 插件并完成功能验证。</p>
+<p>③ 截图记录知识库界面与插件接入验证。</p>
+<p>④ 记录 ≥1 次迭代调整（如调整内容分段或插件参数）。</p>
+<p><b>提交前自检</b>：</p>
+<p>□ 知识库是否创建并上传 ≥5 条专业内容？</p>
+<p>□ 是否接入 ≥1 个 API 插件并验证成功？</p>
+<p>□ 是否截图记录并写明迭代调整？</p>
+</callout>
+<callout emoji="💯" background-color="light-green" border-color="green">
+<p><b>212 成果展示（8′，抽签 2 个小组）</b>：任务完成即现场展示——</p>
+<p>第 1 组代表展示知识库与插件配置成果（2′）→ 学生互评（1′）。</p>
+<p>第 2 组代表展示知识库与插件配置成果（2′）→ 学生互评（1′）。</p>
+<p>两组展示完毕，教师总评（2′）并现场给分。</p>
+<p>评分维度：<b>知识库内容是否专业 · 插件接入是否成功 · 迭代调整是否有记录 · 是否结合专业场景</b>。</p>
+<p>展示 10 分 / 点评 8 分，计入课程竞赛（小组计分表）。</p>
+</callout>
+
+<hr/>
+
+<h2>课点10 智能体全流程发布</h2>
+
+<h3>⑥ 212 汇报</h3>
+<callout emoji="🎯" background-color="light-blue" border-color="blue">
+<p><b>汇报内容（2 分钟，讲清 4 点）</b>：</p>
+<p>① 已学习——预习中了解的智能体全链路。</p>
+<p>② 已建设——自己智能体的人设、知识库、插件进展。</p>
+<p>③ 疑问与瓶颈——发布前还差什么，测试发现问题怎么修。</p>
+<p>④ 解决路径——如何产生并尝试解决这个问题。</p>
+<p><b>互评要求（1 分钟）</b>：依据点评要点为汇报小组打分，并准备 1 条点评意见。</p>
+<p><b>教师点评（2 分钟）</b>：从全流程进展切入，思考「智能体从人设到发布要打通哪些环节」。</p>
+<p><b>评分标准</b>：展示 10 分 / 点评 8 分，当场评分，计入课程竞赛（小组计分表）。</p>
+</callout>
+
+<h3>⑦ 新闻引入与讨论</h3>
+<callout emoji="💡" background-color="light-yellow" border-color="yellow">
+<p>🗣 <b>学习任务</b>：阅读下列新闻材料，先进行 2 分钟微讨论，再抽答 1–2 名学生分享观点——</p>
+<p>① AI 产品发布前要反复打磨什么？</p>
+<p>② 你的智能体发布前还差哪几步？</p>
+</callout>
+<img src="L2hVbf6O9oQHIyxXmxicgs65nyh" width="560" caption="图2 新华网报道《多项产品集中签约发布，新华网携手合作伙伴共筑人工智能新生态》（2025-03-22）"/>
+<p><b>案例要点</b>：新华网发布「人工智能产业创新赋能底座」四大核心能力，其中「应用使能底座」提供面向场景的一站式模型及智能体开发平台，助力企业快速搭建场景化应用。</p>
+<p>依托信创智算一体机实现安全可信交付，系列产品集中签约发布——AI 产品发布是反复打磨后的可信交付。</p>
+<p>报道链接：<a href="https://www.news.cn/digital/20250322/ca96c6f14ff44dcf9c1c232f916b633f/c.html">www.news.cn（新华网 2025-03-22）</a></p>
+
+<h3>⑧ 知识归纳：智能体全流程发布</h3>
+<p><b>核心认知</b>：发布不是终点，是反复打磨后的可信交付——打通人设、知识库、插件到发布全链路，交付一个可运行的智能体。</p>
+<p><b>一、人设－知识库－插件－发布全链路逻辑（K20）</b>：</p>
+<table>
+<colgroup><col width="110"/><col/></colgroup>
+<thead><tr><th background-color="light-gray">环节</th><th background-color="light-gray">作用</th></tr></thead>
+<tbody>
+<tr><td vertical-align="top"><p>人设</p></td><td vertical-align="top"><p>设定智能体角色、语气与边界（课点3 所学）</p></td></tr>
+<tr><td vertical-align="top"><p>知识库</p></td><td vertical-align="top"><p>上传专业内容让智能体「懂行」（课点9 所学）</p></td></tr>
+<tr><td vertical-align="top"><p>插件</p></td><td vertical-align="top"><p>接入外部能力让智能体「能干活」（课点9 所学）</p></td></tr>
+<tr><td vertical-align="top"><p>发布</p></td><td vertical-align="top"><p>配置访问方式并发布，获得可运行链接</p></td></tr>
+</tbody>
+</table>
+<p><b>二、发布后的使用与维护（K19）</b>：</p>
+<p>① 发布后通过链接持续使用与分享。</p>
+<p>② 根据用户反馈迭代优化人设、知识库与插件。</p>
+<p>③ 完成 ≥5 轮对话测试，发现并修复对话质量问题。</p>
+
+<h3>⑨ 任务二：智能体全流程创建与发布</h3>
+<p><b>任务结构</b>：观看演示 4′＋小组实操 11′＋成果展示 5′。</p>
+<p><b>（演示 4′）观看示范并记录要点</b>：</p>
+<p>① 智能体全流程创建：确认人设 → 关联知识库 → 接入 ≥1 插件 → 配置发布方式。</p>
+<p>② 发布并获取可访问链接。</p>
+<p>③ 完成 ≥5 轮对话测试，记录 1 个对话质量问题并修复（如回答跑题 → 调整人设或知识库检索范围）。</p>
+<callout emoji="🎯" background-color="light-blue" border-color="blue">
+<p><b>小组任务（限时 11′，两人一组）</b>：登录 Coze 平台完成——</p>
+<p>① 完成智能体全流程创建（人设＋知识库＋≥1 插件＋发布），获得可访问链接。</p>
+<p>② 完成 ≥5 轮对话测试，记录并修复 ≥2 个对话质量问题。</p>
+<p>③ 整理设计说明：选题理由、人设描述、知识库范围、测试记录。</p>
+<p><b>提交前自检</b>：</p>
+<p>□ 全链路是否打通并拿到可访问链接？</p>
+<p>□ 是否完成 ≥5 轮对话测试并记录修复 ≥2 个问题？</p>
+<p>□ 设计说明是否完整？</p>
+</callout>
+<callout emoji="💯" background-color="light-green" border-color="green">
+<p><b>成果展示（5′，抽签 1 个小组）</b>：任务完成即现场展示——</p>
+<p>抽签 1 个小组代表展示可运行智能体链接与对话测试成果（2′）→ 师生点评（3′）。</p>
+<p>评分维度：<b>全链路是否打通 · 对话测试是否有修复记录 · 设计说明是否完整 · 是否结合专业场景</b>。</p>
+</callout>
+
+<h3>⑩ 后测</h3>
+<callout emoji="💡" background-color="light-orange" border-color="orange">
+<p>📱 <b>题1（分析题，学习通作答）</b>：简述智能体「人设－知识库－插件－发布」全链路逻辑，并说明发布后如何通过对话测试发现问题并迭代优化。</p>
+<p><b>作答要点</b>：① 说清四环节顺序与作用——人设定角色、知识库供专业内容、插件接外部能力、发布得链接；② 发布后通过 ≥5 轮对话测试发现回答跑题/不准等问题；③ 通过调整人设/知识库/插件迭代修复。</p>
+<p>📝 <b>题2（实践引申任务，课后完成）</b>：课后完善智能体并准备项目一验收——</p>
+<p>① 确认自己的智能体全链路通畅、链接可访问。</p>
+<p>② 补充对话测试至 ≥5 轮并修复遗留问题。</p>
+<p>③ 为项目一智能体训练阶段做一次回顾小结（≥200 字），梳理从课点 1 到课点 10 的迭代历程。</p>
+<p><b>评分参考</b>：① 全链路通畅、链接可运行；② 测试记录完整、问题已修复；③ 回顾小结覆盖课点 1—10 关键里程碑。</p>
+</callout>
+
+<h3>⑪ 课堂总结与课后作业</h3>
+<callout emoji="🎯" background-color="light-blue" border-color="blue">
+<p><b>核心观点</b>：给智能体装上「专业大脑」与「工具手」，反复打磨才能可信交付。</p>
+</callout>
+<p><b>本课小结</b>：本课掌握了知识库创建维护与插件接入的方法，完成了知识库上传与插件配置。</p>
+<p>同时打通了「人设－知识库－插件－发布」全链路，独立交付了面向专业方向的可运行智能体，在对话测试与修复中践行反复迭代打磨。</p>
+<p><b>课后作业</b>：</p>
+<checkbox done="false"><b>巩固 1</b>：完成学习通在线测验（知识库配置与插件接入、智能体全流程发布）</checkbox>
+<checkbox done="false"><b>巩固 2</b>：完成知识库创建并上传 ≥5 条专业内容，提交知识库界面截图（含上传内容列表）——提交学习通</checkbox>
+<checkbox done="false"><b>巩固 3</b>：接入 ≥1 个 API 插件并完成功能验证，提交插件接入与验证截图——提交学习通</checkbox>
+<checkbox done="false"><b>巩固 4</b>：提交知识库＋插件配置说明（要点 2–3 条，含 ≥1 次迭代调整记录）——提交学习通</checkbox>
+<checkbox done="false"><b>巩固 5</b>：完成智能体全流程创建（人设＋知识库＋≥1 插件＋发布），提交可访问链接——提交学习通</checkbox>
+<checkbox done="false"><b>巩固 6</b>：完成 ≥5 轮对话测试，记录并修复 ≥2 个对话质量问题，提交测试记录（含问题与修复说明）——提交学习通</checkbox>
+<checkbox done="false"><b>巩固 7</b>：提交设计说明：选题理由、人设描述、知识库范围、测试记录（≥300 字）——提交学习通</checkbox>
+<checkbox done="false"><b>预习 1</b>：预习课点11「智能体应用转化概述」、课点12「Coze 应用框架与界面设计」——了解智能体如何转化为可交互应用，思考自己的智能体能否嵌入网页</checkbox>
+<checkbox done="false"><b>预习 2</b>：在 Coze 平台尝试查看应用开发入口，了解「应用」与「智能体」的区别</checkbox>
+<checkbox done="false"><b>预习 3</b>：准备下一次 212 汇报：梳理自己的智能体应用转化设想，准备课堂分享</checkbox>
+<p><b>参考资料</b>：</p>
+<p>① 林子雨《人工智能通识》，人民邮电出版社，2025。</p>
+<p>② 易海胜《人工智能应用基础》，航空工业出版社。</p>
+<p>③ Coze 平台官方文档：<a href="https://www.coze.cn">www.coze.cn</a></p>
