@@ -2,18 +2,19 @@
 """飞书课堂手册 XML 源稿校验器（feishuke-skill 通用检查）。
 
 用法:
-  python verify_manual.py <xml1> [<xml2> ...]     # 显式文件
+  python verify_manual.py <xml1> [<xml2> ...]     # 显式文件（默认 --profile v11）
   python verify_manual.py --dir <目录>            # 检查目录下 manual_lesson*.xml
-  python verify_manual.py --dir <目录> --expect-img 2 --expect-h2 4
-  python verify_manual.py <xml> --profile live    # 线上手改版式（h2 允许 3 或 4、总览表可缺）
+  python verify_manual.py --dir <目录> --expect-img 2
+  python verify_manual.py <xml> --profile v101    # 查旧版式稿（h2=4、须有总览表 0–90′）
   python verify_manual.py <xml> --img-mode any    # 截图数量不限（线上版含大量操作截图）
 
 检查项:
   - 无 BOM / 无游离 & / title 存在（允许 xx年xx月xx日 与 2026-0x-xx 占位）
   - 标签白名单（v1.1 含 h4/grid/column/sheet/pre/code/blockquote/a）
-  - h2 数量（默认期望 4：课前准备/课堂流程总览/课点N/课点N+1；profile=live 时允许 3–4）
-  - h3 环节编号 ①②③… 连续无跳号
-  - 总览表（表头含"时间"+"学习活动"）时间轴 0→90 连续无空档重叠（profile=live 时可缺）
+  - h2 数量（v1.2 默认=3：课前准备/课点N/课点N+1）
+  - 总览表（v1.2 起**不得存在**，出现即 FAIL；--profile v101 才要求且校验 0→90 连续）
+  - h3 环节编号 ①②③… 连续无跳号；末 h3=课堂总结与课后作业；不得有"后测"h3
+  - checkbox ≤3（课前准备三条；v1.2 起不再有课后作业/预习清单）
   - img 数量（默认期望=课点数，即 2；--img-mode any 时不校验数量）
 退出码 0=全过；1=有 FAIL。
 """
@@ -32,8 +33,9 @@ code pre sheet grid column mark sub sup'''.split())
 BANNED_HINTS = {'details': '折叠块不支持', 'iframe': 'iframe 不支持'}
 
 
-def check(path, expect_img=2, expect_h2=4, profile='v101', img_mode='exact'):
+def check(path, expect_img=2, expect_h2=3, profile='v11', img_mode='exact'):
     fails, notes = [], []
+    new_style = profile in ('v11', 'live')
     t = io.open(path, encoding='utf-8').read()
     if t.startswith('\ufeff'):
         fails.append('BOM')
@@ -51,9 +53,9 @@ def check(path, expect_img=2, expect_h2=4, profile='v101', img_mode='exact'):
             fails.append('禁用标签 <%s>：%s' % (b, why))
     # h2
     h2s = re.findall(r'<h2[^>]*>(.*?)</h2>', t, re.S)
-    if profile == 'live':
-        if len(h2s) not in (3, 4):
-            fails.append('h2=%d (live 允许 3–4)' % len(h2s))
+    if new_style:
+        if len(h2s) != 3:
+            fails.append('h2=%d (v1.2 期望 3：课前准备/课点N/课点N+1)' % len(h2s))
     elif len(h2s) != expect_h2:
         fails.append('h2=%d (expect %d)' % (len(h2s), expect_h2))
     # h3 编号连续
@@ -66,6 +68,16 @@ def check(path, expect_img=2, expect_h2=4, profile='v101', img_mode='exact'):
             if first[0] != NUM[idx - 1]:
                 fails.append('h3 编号跳号 @%s' % first[:12])
     notes.append('h3=%d' % len(h3s))
+    if new_style:
+        last3 = re.sub(r'<[^>]+>', '', h3s[-1]).strip() if h3s else ''
+        if '课堂总结' not in last3:
+            fails.append('末 h3 非课堂总结：%s' % last3[:16])
+        if any('后测' in re.sub(r'<[^>]+>', '', x) for x in h3s):
+            fails.append('含"后测"h3（v1.2 取消）')
+        cks = len(re.findall(r'<checkbox ', t))
+        notes.append('checkbox=%d' % cks)
+        if cks > 3:
+            fails.append('checkbox=%d >3（v1.2 起无课后作业/预习清单）' % cks)
     # 总览表时间轴
     tables = re.findall(r'<table>.*?</table>', t, re.S)
     ov = None
@@ -74,11 +86,13 @@ def check(path, expect_img=2, expect_h2=4, profile='v101', img_mode='exact'):
         if head and '时间' in head.group(0) and ('学习活动' in head.group(0) or '我们一起' in head.group(0)):
             ov = tb
             break
-    if ov is None:
-        if profile == 'live':
-            notes.append('总览表=无(live 允许)')
+    if new_style:
+        if ov is not None:
+            fails.append('含课堂流程总览表（v1.2 起取消，勿写进手册）')
         else:
-            fails.append('未找到总览表')
+            notes.append('总览表=无(v1.2 正常)')
+    elif ov is None:
+        fails.append('未找到总览表')
     else:
         body = re.search(r'<tbody>(.*?)</tbody>', ov, re.S)
         rows = re.findall(r'<tr>(.*?)</tr>', body.group(1), re.S) if body else []
@@ -110,7 +124,7 @@ def check(path, expect_img=2, expect_h2=4, profile='v101', img_mode='exact'):
 
 def main():
     args = sys.argv[1:]
-    profile, img_mode = 'v101', 'exact'
+    profile, img_mode = 'v11', 'exact'
     if '--profile' in args:
         i = args.index('--profile')
         profile = args[i + 1]
@@ -128,6 +142,8 @@ def main():
         i = args.index('--expect-h2')
         kw['expect_h2'] = int(args[i + 1])
         del args[i:i + 2]
+    elif profile == 'v101':
+        kw['expect_h2'] = 4  # 旧版式（含总览表）固定 4 个 h2
     files = []
     if args and args[0] == '--dir':
         files = sorted(glob.glob(args[1] + r'\manual_lesson*.xml')) if '\\' in args[1] else sorted(glob.glob(args[1] + '/*.xml'))

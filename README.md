@@ -6,30 +6,36 @@
 
 - 师生共用、学生活动视角、可投屏；不是备课专用、不是 8 区学生手册。
 - 教案（docx）= 唯一内容权威：时间口径、平台、分值归属全部照教案，禁编造。
-- 结构标杆：《人工智能通识》第2次课 v7 手册；`templates/manual_lesson3–6_sample.xml` 为同结构成品样板。
+- 结构标杆：**v1.2 版式**＝芳姐 2026-09-21 手改的第3讲线上手册（`references/线上手改版_第3次课_20260921.xml`）；`templates/manual_lesson*_sample.xml` 为 v1.2 同结构成品样板。
 
 ## 使用
 
 读 `SKILL.md`（含结构规范/时间口径铁律/DocxXML 标签与命令/工作流 A·B/核验清单）。
 
 ```bash
-# 校验 XML 源稿结构
+# 校验 XML 源稿结构（默认 v1.2 口径：h2=3、无总览表、末 h3=课堂总结、checkbox≤3）
 python scripts/verify_manual.py --dir templates
 python scripts/verify_manual.py manual_lessonN.xml
+python scripts/verify_manual.py manual_lessonN.xml --profile v101   # 查历史旧版式稿
+python scripts/verify_manual.py live_doc.xml --img-mode any          # 线上版含大量截图时
 ```
 
 ## 目录
 
 ```
 SKILL.md                          ← 技能说明（唯一规范真身）
-templates/manual_lessonN_sample.xml  ← 成品 XML 样板（真实内容，可作样例/夹具）
-scripts/verify_manual.py          ← XML 结构校验器（h2/h3 编号/总览时间轴/img/游离&）
+templates/manual_lessonN_sample.xml  ← v1.2 成品 XML 样板（真实内容，可作样例/夹具）
+references/线上手改版_第3次课_20260921.xml  ← v1.2 版式来源（芳姐手改线上版整稿）
+references/v101_old_templates/     ← v1.0.1 旧版式模板（含总览表，仅存档）
+scripts/verify_manual.py          ← XML 结构校验器（默认 v1.2；--profile v101 查旧稿）
 .cicd/config.json                 ← CI/CD 参数（gen_cicd.py 生成）
 .github/workflows/ci.yml          ← 远端 QA（gen_cicd.py 生成）
 ```
 
 ## 版本
 
+- v1.2（2026-09-21）：芳姐确认三项版式改动（取消总览表／不设后测／不列作业清单）→ 进正式规范，校验器默认口径同步；据此改造第 4–6 讲线上手册。
+- v1.1（2026-09-21）：对齐芳姐手改第3讲线上版式（h4/blockquote/grid/sheet/pre/a、标题三行、互动 callout 化、文字精简）。
 - v1.0.0（2026-09-06）：依据第2次课手册 v1→v7 全部迭代教训 + 第3–6次课批量线上验证沉淀。
 
 ## 技能包 CI/CD
