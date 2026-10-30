@@ -35,7 +35,7 @@ BANNED_HINTS = {'details': '折叠块不支持', 'iframe': 'iframe 不支持'}
 
 def check(path, expect_img=2, expect_h2=3, profile='v11', img_mode='exact'):
     fails, notes = [], []
-    new_style = profile in ('v11', 'live')
+    new_style = profile in ('v11', 'live', 'v12', 'v13')
     t = io.open(path, encoding='utf-8').read()
     if t.startswith('\ufeff'):
         fails.append('BOM')
